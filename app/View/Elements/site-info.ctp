@@ -1,0 +1,5 @@
+<p>This site serves as a personal website and a portfolio to showcase what I spend my time on. It's responsively designed and optimized for reading on all devices. As with all my web projects, it's single-page and loads content through AJAX. I used the <a href='http://cakephp.org' target='_blank'>CakePHP</a> framework for back-end organization and I used <a href='http://getbootstrap.com' target='_blank'>Bootstrap 4</a> to style and organize what you see before you. I write code in <a href='https://www.sublimetext.com/3' target='_blank'>Sublime Text 3</a>.</p>
+
+	<p>The ages on my About Me update automatically and I keep the link updated with a very macro look of my history.</p>
+
+	<p style='color: #eee; font-size: 11px; float: right; cursor: default;' title="It will be pretty easy to find if you're a web developer.">psst! There's a secret hidden somewhere on the website.</p>
