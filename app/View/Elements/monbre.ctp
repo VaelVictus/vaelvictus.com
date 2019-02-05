@@ -1,4 +1,4 @@
-<a href='http://vaelvictus.com/img/monbre_opening.jpg' target='_blank'><?=$this->Html->image('monbre_opening.jpg', array('class' => 'imgbdr', 'align' => 'right', 'width' => 300, 'height' => 170, 'style' => 'margin-left: 6px;'));?></a>
+<?=$this->Html->image('monbre_opening.jpg', array('class' => 'imgbdr', 'align' => 'right', 'width' => 300, 'height' => 170, 'style' => 'margin-left: 6px;'));?>
 MonBre was the first commercial game that I created: <a href='http://monbre.com' target='_blank'>http://monbre.com</a><br><br>
 
 I developed MonBre while learning PHP. I had been sketching up monster designs for years, and after marathoning the Digimon World and Monster Rancher games on PS1, I'd come up with some ideas for MonBre. It was a year of developing MonBre before I officially released it to the public. It was, unfortunately, mostly unsuccessful.<br><br>

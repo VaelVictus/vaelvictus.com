@@ -12,7 +12,7 @@
 <div class='row mt-3'>
 	<div class='col-1 col-md-2'></div>
 	<div class='col-10 col-md-8 text-center'>
-		<a href='<?=$this->webroot?>img/screens/daiele_alpha.png' target='_blank'><?=$this->Html->image('screens/daiele_alpha.png')?></a><br>
+		<a class='pop' href='<?=$this->webroot?>img/screens/daiele_alpha.png' target='_blank'><?=$this->Html->image('screens/daiele_alpha.png')?></a><br>
 		<center class='small'><em>Very</em> alpha screenshot.</center>
 	</div>
 	<div class='col-1 col-md-2'></div>

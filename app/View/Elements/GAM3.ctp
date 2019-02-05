@@ -6,26 +6,37 @@
     <ol class="carousel-indicators m-0">
       <li data-target="#mrbungle" data-slide-to="0" class="active"></li>
       <li data-target="#mrbungle" data-slide-to="1" class=""></li>
+      <li data-target="#mrbungle" data-slide-to="2" class=""></li>
     </ol>
     <div class="carousel-inner">
 
       <div class="carousel-item active">
-        <a href='<?=$this->webroot?>/img/screens/gam3_event.gif' target='_blank'>
-        	<?=$this->Html->image('screens/gam3_event.gif', ['class' => 'd-block pb-5 w-100'])?>
+        <a href='<?=$this->webroot?>/img/screens/gam3_event_add.png' target='_blank'>
+        	<?=$this->Html->image('screens/gam3_event_add.png', ['class' => 'd-block pb-5 w-100'])?>
         </a>
         <div class="carousel-caption pt-3 pb-0 d-none d-md-block">
-          <h5>Event</h5>
-          <p>The most complex page in the engine: an event.</p>
+          <h5>Event Creation</h5>
+          <p>Almost everything an event can do. Failure results show up when a challenge is set.</p>
         </div>
       </div>
 
       <div class="carousel-item">
-      	<a href='<?=$this->webroot?>/img/screens/gam3_qual.gif' target='_blank'>
-	        <?=$this->Html->image('screens/gam3_qual.gif', ['class' => 'd-block pb-5 w-100'])?>
-	    </a>
+        <a href='<?=$this->webroot?>/img/screens/gam3_event_edit.PNG' target='_blank'>
+          <?=$this->Html->image('screens/gam3_event_edit.PNG', ['class' => 'd-block pb-5 w-100'])?>
+         </a>
         <div class="carousel-caption pt-3 pb-0 d-none d-md-block">
-          <h5>Qual View</h5>
-          <p>Editing a qual.</p>
+          <h5>Event Edit</h5>
+          <p>An example of a real-life event.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      	<a href='<?=$this->webroot?>/img/screens/gam3_item.png' target='_blank'>
+	        <?=$this->Html->image('screens/gam3_item.png', ['class' => 'd-block pb-5 w-100'])?>
+	       </a>
+        <div class="carousel-caption pt-3 pb-0 d-none d-md-block">
+          <h5>Item</h5>
+          <p>Editing a piece of equipment. We can query for 'bleeding' as a chance to bleed with each attack.</p>
         </div>
       </div>
 

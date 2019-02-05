@@ -35,6 +35,10 @@ $(function(){
 			$(this).addClass('actv');	
 		}
 
+		// close toggler out on mobile when clicking nav link
+		if (!$('.navbar-toggler').hasClass('collapsed'))
+		$('.navbar-toggler').click()
+
 		// push state
 		window.history.pushState({url}, url, url);
 		
@@ -47,14 +51,14 @@ $(function(){
 	});
 
 	// handling carousel image clicks:
-	$(document).on('click', ".carousel-item a img", function () {
+	$(document).on('click', ".carousel-item a img, .pop img", function () {
 	    let src = $(this).attr("src");
 	    // cannot have display none + display flex, just set it on show
 	    $("#quick_modal").html(`<img src='${src}'>`).css({opacity: 0, display: 'flex'}).animate({
             opacity: 1
-        }, 500);
+        }, 400);
 	});
-    $(document).on('click', ".carousel-item a", function () {
+    $(document).on('click', ".carousel-item a, .pop", function () {
         return false;
     });
     $(document).on('click', "#quick_modal", function () {

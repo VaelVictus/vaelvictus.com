@@ -139,6 +139,9 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 			jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).addClass('actv');
 		}
 
+		// close toggler out on mobile when clicking nav link
+		if (!jquery__WEBPACK_IMPORTED_MODULE_0___default()('.navbar-toggler').hasClass('collapsed')) jquery__WEBPACK_IMPORTED_MODULE_0___default()('.navbar-toggler').click();
+
 		// push state
 		window.history.pushState({ url }, url, url);
 
@@ -151,14 +154,14 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 	});
 
 	// handling carousel image clicks:
-	jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on('click', ".carousel-item a img", function () {
+	jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on('click', ".carousel-item a img, .pop img", function () {
 		let src = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).attr("src");
 		// cannot have display none + display flex, just set it on show
 		jquery__WEBPACK_IMPORTED_MODULE_0___default()("#quick_modal").html(`<img src='${src}'>`).css({ opacity: 0, display: 'flex' }).animate({
 			opacity: 1
-		}, 500);
+		}, 400);
 	});
-	jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on('click', ".carousel-item a", function () {
+	jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on('click', ".carousel-item a, .pop", function () {
 		return false;
 	});
 	jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on('click', "#quick_modal", function () {
