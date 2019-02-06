@@ -26,13 +26,13 @@
          </a>
         <div class="carousel-caption pt-3 pb-0 d-none d-md-block">
           <h5>Event Edit</h5>
-          <p>An example of a real-life event.</p>
+          <p>Example of a real game's event.</p>
         </div>
       </div>
 
       <div class="carousel-item">
-      	<a href='<?=$this->webroot?>/img/screens/gam3_item.png' target='_blank'>
-	        <?=$this->Html->image('screens/gam3_item.png', ['class' => 'd-block pb-5 w-100'])?>
+      	<a href='<?=$this->webroot?>/img/screens/gam3_item.PNG' target='_blank'>
+	        <?=$this->Html->image('screens/gam3_item.PNG', ['class' => 'd-block pb-5 w-100'])?>
 	       </a>
         <div class="carousel-caption pt-3 pb-0 d-none d-md-block">
           <h5>Item</h5>
