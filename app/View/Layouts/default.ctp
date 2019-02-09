@@ -45,7 +45,7 @@
 			<div class='container py-0 py-lg-1'>
 			<nav class="navbar navbar-dark navbar-expand-sm p-0 	px-lg-3">
 				<a class="navbar-brand ml-0 ml-lg-2" id='name' href="<?=$this->Html->url('/')?>"> </a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle Nav">
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle Nav">
 				<span class="navbar-toggler-icon"></span>
 				</button>
 
@@ -55,21 +55,57 @@
 						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						    Games
 						  </a>
-						  <div class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
-						  	<a class="dropdown-item" href="bean-grower">Bean Grower</a>
-						  	<a class="dropdown-item" href="fireburner">Fireburner</a>
-						  	<div class="dropdown-divider my-1"></div>
-						  	<a class="dropdown-item" href="daiele">Daiele</a>
-						  	<a class="dropdown-item" href="monbre">MonBre</a>
+						  <div class="dropdown-menu pt-0 pb-2" aria-labelledby="navbarDropdown" style='min-width: 275px;'>
+						  	<a class="dropdown-item py-0 px-1" href="bean-grower">
+								<?=$this->Html->image('iconography/bg.svg')?>
+						  		<div>
+						  			<div>Bean Grower</div>
+						  			<div>Casual strategy game.</div>
+						  		</div>
+						  		</a>
+						  	<a class="dropdown-item py-0 px-1" href="fireburner">
+						  		<?=$this->Html->image('iconography/fireburner.svg')?>
+						  		<div>
+						  			<div>Fireburner</div>
+						  			<div>Immersive narrative game. Coming soon.</div>
+						  		</div>
+						  	</a>
+						  	<div style='float: left; margin: 4px 0px 2px; width: 100%; border-top: 1px solid #ccc;'></div>
+						  	<a class="dropdown-item py-0 px-1" href="daiele">
+						  		<?=$this->Html->image('iconography/daiele.jpg')?>
+						  		<div>
+							  		<div>Daiele</div>
+							  		<div>Prototype GAM3 game. Never released.</div>
+							  	</div>
+						  	</a>
+						  	<a class="dropdown-item py-0 px-1" href="monbre">
+						  		<?=$this->Html->image('iconography/monbre.gif')?>
+						  		<div>
+							  		<div>MonBre</div>
+							  		<div>A game about breeding monsters and<br>defeating gods.</div>
+							  	</div>
+						  	</a>
 						  </div>
 						</li>
 						<li class="nav-item dropdown pl-2 mr-4 mr-lg-5 	pl-md-0">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							  Tech
 							</a>
-							<div class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="GAM3">GAM3 Engine</a>
-								<a class="dropdown-item" href="orbium">Orbium</a>
+							<div class="dropdown-menu pt-0 pb-2" aria-labelledby="navbarDropdown" style='min-width: 250px;'>
+								<a class="dropdown-item py-0 px-1" href="GAM3">
+									<?=$this->Html->image('iconography/globe.svg')?>
+									<div>
+										<div>GAM3 Engine</div>
+										<div>tinydark's proprietary game engine.</div>
+									</div>
+								</a>
+								<a class="dropdown-item py-0 px-1" href="orbium">
+									<?=$this->Html->image('iconography/orbium.svg')?>
+									<div>
+										<div>Orbium</div>
+										<div>tinydark's gaming social network.</div>
+									</div>
+								</a>
 							</div>
 						</li>
 					  <li class="nav-item pl-2 mr-4 mr-lg-5	 	pl-md-0"><a class="nav-link" href="about-me">About Me</a></li>

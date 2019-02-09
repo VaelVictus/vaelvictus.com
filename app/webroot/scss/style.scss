@@ -81,14 +81,41 @@ nav {
 .navbar-toggler {
   color: white;
 }
+.dropdown-menu {
+  box-shadow: 0px 1px 4px #ccc;
+}
 .dropdown-item {
-  font-size: 1.2rem;
-  &:hover {
-    background: #ddd !important; text-decoration: underline;
+  font-size: 1.2rem; overflow: hidden;
+  transition: 0.3s background-color;
+
+  img {
+    float: left; margin: 8px 9px 3px 3px;
+    width: 32px; height: 32px;
   }
-  &:focus {
+
+  > div {
+    float: left;
+  }
+
+  & div > div:first-of-type {
+    margin: 5px 0px -2px 0px; font-weight: bold;
+    text-decoration: underline;
+  }
+  & div > div:last-of-type {
+    font-size: 11px; line-height: 1.2em;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: #dedede !important;
+    transition: 0.3s background-color;
+  }
+  &:focus, &:active {
     color: #000 !important;
   }
+}
+.dropdown-divider {
+  clear: both;
 }
 
 .carousel {
@@ -234,7 +261,7 @@ nav {
 // xl
 @media (min-width: 1200px) {
   // Our carousels will always be named this, for obvious reasons.
-  #mrbungle {
+  .carousel {
     width: 85%;
     margin: 0px auto;
   }
@@ -245,7 +272,9 @@ nav {
 
 // lg
 @media (min-width: 992px) {
-
+  .dropdown-menu {
+    margin-top: 3px;
+  }
 }
 
 // md
@@ -261,31 +290,7 @@ nav {
 // xs-sm (phones)
 @media (max-width: 575px) {
   #content { font-size: 0.9em; }
+  .dropdown-menu {
+    box-shadow: none;
+  }
 }
-
-
-/* Media Queries */
-
-// @media (max-width: 599px) {
-//   #content { font-size: 14px;}
-//   #nav { font-size: 14px;  }
-//   #name { font-size: 19px; }
-// }
-
-// @media (min-width: 600px) {
-//   #content { font-size: 15px;}
-//   #nav { font-size: 14px;  }
-//   #name { font-size: 21px; }
-// }
-
-// @media (min-width: 992px) {
-//   #content { font-size: 17px;}
-//   #nav { font-size: 16px;  }
-//   #name { font-size: 24px; }
-// }
-
-// @media (min-width: 1200px) {
-//   #content { font-size: 19px; }
-//   #nav { font-size: 16px; }
-//   #name { font-size: 29px; }
-// }
