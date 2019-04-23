@@ -60,12 +60,12 @@
 <p>GAM3's player side is getting a facelift, but here are two older screenshots:
 <div style='float: left;'>
 	<div style='float: left; width: 48%; text-align: center;'>
-		<a href='http://vaelvictus.com/img/screens/gam3_play.gif' target='_blank' title="Click for life-size! IMAGE IS CONSIDERED AN UNFINISHED PRODUCT.">
+		<a href='http://vaelvictus.com/img/screens/gam3_play.gif' class='pop' target='_blank' title="Click for life-size! IMAGE IS CONSIDERED AN UNFINISHED PRODUCT.">
 		<?=$this->Html->image('screens/gam3_play.gif', array('width' => '100%', 'height' => 220))?></a><br>
 		<span style='font-size: 11px'>From the player's perspective: playing an event.</span>
 	</div>
 	<div style='float: left; width: 49%; margin-left: 3%; text-align: center;'>
-		<a href='http://vaelvictus.com/img/screens/gam3_playcustomize.gif' target='_blank' title="Click for life-size! IMAGE IS CONSIDERED AN UNFINISHED PRODUCT.">
+		<a href='http://vaelvictus.com/img/screens/gam3_playcustomize.gif' class='pop' target='_blank' title="Click for life-size! IMAGE IS CONSIDERED AN UNFINISHED PRODUCT.">
 		<?=$this->Html->image('screens/gam3_playcustomize.gif', array('width' => '100%', 'height' => 220))?></a><br>
 		<span style='font-size: 11px'>GAM3 allows for customization of the UI on a per-player basis.</span>
 	</div>

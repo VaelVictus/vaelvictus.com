@@ -41,6 +41,8 @@ $(function(){
 
 		// push state
 		window.history.pushState({url}, url, url);
+
+		window.scrollTo(0, 0);
 		
 		// load content via AJAX
 		$.post(url, {ajax: 1}, function(data) {

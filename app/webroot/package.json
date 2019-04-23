@@ -6,7 +6,9 @@
   "scripts": {
     "watch": "webpack --display-error-details --watch --config webpack.dev.js",
     "builddev": "webpack --display-error-details --config webpack.dev.js",
-    "build": "webpack --display-error-details -p --config webpack.prod.js"
+    "build": "webpack --display-error-details -p --config webpack.prod.js",
+    "stylew": "node-sass-chokidar -w scss/style.scss css/style.css   --output-style compressed",
+    "style": "node-sass-chokidar scss/style.scss css/style.css   --output-style compressed"
   },
   "keywords": [],
   "author": "",
