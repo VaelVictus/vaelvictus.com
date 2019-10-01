@@ -1,4 +1,5 @@
 # vael #
+/app/.vscode
 /app/tmp/
 /app/tmp/cache/
 /app/tmp/cache/persistent/
