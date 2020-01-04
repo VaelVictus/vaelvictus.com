@@ -42,7 +42,7 @@
 <body>
 	<div id='wrapper'>
 		<div id='nav'>
-			<div class='container py-0 py-lg-1'>
+			<div class='container py-0 py-lg-2'>
 			<nav class="navbar navbar-dark navbar-expand-sm p-0 	px-lg-3">
 				<a class="navbar-brand ml-0 ml-lg-2" id='name' href="<?=$this->Html->url('/')?>"> </a>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle Nav">
