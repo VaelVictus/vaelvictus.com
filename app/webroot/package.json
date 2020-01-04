@@ -17,6 +17,7 @@
     "bootstrap": "^4.1.3",
     "jquery": "^3.2.1",
     "letteringjs": "^0.7.0",
+    "node-sass-chokidar": "^1.4.0",
     "popper.js": "^1.12.5",
     "textillate": "^0.4.1"
   },
