@@ -38,13 +38,14 @@
 	
 	<?=$this->Html->css('style.css'.((DEV_ENV == 'local') ? "?modified=".time() : '')); ?>
 	<?=$this->Html->script('compiled/main.js'.((DEV_ENV == 'local') ? "?modified=".time() : '')); ?>
+	<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 </head>
 <body>
 	<div id='wrapper'>
 		<div id='nav'>
 			<div class='container py-0 py-lg-2'>
 			<nav class="navbar navbar-dark navbar-expand-sm p-0 	px-lg-3">
-				<a class="navbar-brand ml-0 ml-lg-2" id='name' href="<?=$this->Html->url('/')?>"> </a>
+				<a class="navbar-brand ml-0 ml-lg-2" id='name' href="<?=$this->Html->url('/')?>" data-no-instant> </a>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle Nav">
 				<span class="navbar-toggler-icon"></span>
 				</button>
@@ -52,7 +53,7 @@
 				<div class="collapse navbar-collapse" id="navbar">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item dropdown pl-2 ml-0 mr-4 mr-lg-5		pl-md-0">
-						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  <a class="nav-link dropdown-toggle" href="#" data-no-instant id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						    Games
 						  </a>
 						  <div class="dropdown-menu pt-0 pb-2" aria-labelledby="navbarDropdown" style='min-width: 275px;'>
@@ -88,7 +89,7 @@
 						  </div>
 						</li>
 						<li class="nav-item dropdown pl-2 mr-4 mr-lg-5 	pl-md-0">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle" href="#" data-no-instant  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							  Tech
 							</a>
 							<div class="dropdown-menu pt-0 pb-2" aria-labelledby="navbarDropdown" style='min-width: 250px;'>
