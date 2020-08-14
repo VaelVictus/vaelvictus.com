@@ -6,6 +6,6 @@
 
 <p>I'm deeply interested in the topic of ethical gaming, and as such, tinydark is founded on ethics. It is the studio's goal to put the player first, and provide them with memorable experiences realized through the marriage of narrative and game design. Our designs respect the player's time while keeping them engaged. Premium currency purchasing is straightforward and makes it clear what's being spent.</p>
 
-<p>I'm industrious and an avid life-long learner, and I spend much of my recreation time working on my hobby projects or reading. I'm a huge fan of <a href='https://jamesclear.com/' target='_blank'>James Clear</a>'s psychology, especially his articles about <a href='https://jamesclear.com/productivity' target='_blank'>productivity</a>. I follow <a href='https://jamesclear.com/habit-triggers' target='_blank'>trigger-based habits</a> and prefer to keep my work separate from my play.</p>
+<p>I am an industrious and avid life-long learner, and I spend much of my recreation time working on my hobby projects or reading. I'm a huge fan of <a href='https://jamesclear.com/' target='_blank'>James Clear</a>'s psychology, especially his articles about <a href='https://jamesclear.com/productivity' target='_blank'>productivity</a>. I follow <a href='https://jamesclear.com/habit-triggers' target='_blank'>trigger-based habits</a> and prefer to keep my work separate from my play.</p>
 
 <p>Visit <a href='https://tinydark.com/about' target='_blank'>tinydark's website</a> for a rolling history of what I'm up to.</p>
