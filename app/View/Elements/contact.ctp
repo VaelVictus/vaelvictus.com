@@ -22,6 +22,6 @@ My public email is suitable for purposes of business and general inquiries.<br>
 </div>
 
 <p class='mt-3'>
-	I'm on <a href="https://twitter.com/VaelVictus" target='_blank'>twitter</a>.<br>
-	I post a few times a month on <a href="http://vael.tumblr.com/" target='_blank'>my Tumblr</a>, too.
+	Sometimes I'll intentionally spread positive vibes on <a href="https://twitter.com/VaelVictus" target='_blank'>twitter</a>.<br>
+	I'll rarely post on <a href="https://vael.tumblr.com/" target='_blank'>my Tumblr</a>, too.
 </p>

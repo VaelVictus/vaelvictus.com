@@ -30,13 +30,17 @@ img {
 }
 
 a {
-  color: #C25500; text-decoration: none; font-weight: 700; 
+  color: #C25500; text-decoration: underline; font-weight: 700; 
   transition: color 0.16s, padding 0.3s; font-size: 0.95em;
 
   &:hover {
     color: $active; 
     transition: color 0.16s, padding 0.3s;
   }
+}
+
+.navbar-nav a {
+  text-decoration: none;
 }
 
 // bullets in content
