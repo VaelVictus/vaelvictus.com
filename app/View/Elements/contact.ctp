@@ -11,7 +11,7 @@ My public email is suitable for purposes of business and general inquiries.<br>
 		<div class='col-1 p-0 text-center'>
 			<?=$this->Html->image('iconography/discord.svg', array('class' => 'inlineimg_contact', 'title' => 'discord'));?>
 		</div>
-		<div class='col-11 pl-0'><b>Vael Victus#7629</b></div>
+		<div class='col-11 pl-0'><b>Vael Victus#0001</b></div>
 	</div>
 	<div class='row mt-2'>
 		<div class='col-1 p-0 text-center'>
